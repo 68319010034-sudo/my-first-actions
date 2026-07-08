@@ -1,0 +1,12 @@
+name: Hello World Workflow
+
+on:
+  push:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: แสดงข้อความ
+        run: echo "Hello GitHub Actions!"
